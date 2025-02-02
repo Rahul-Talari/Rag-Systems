@@ -1,0 +1,31 @@
+Langchain: Prompt Templates, models, output parsers, Chains
+
+LangChain_core Langchain_Community Langchain-experimental
+LangSmith      LangGraph           LangServe
+
+
+Installations:
+pip install langchain-core
+pip install langchain-community
+pip install langchain-experimental
+pip install langsmith
+pip install langgraph
+pip install "langserve[all]"
+
+Langchain supports
+Load  : 160+ Integrations.
+Embed : 30+ Integrations
+Store : 40+ Integrations
+
+1.Basic LLM Chain              – Uses only a prompt template to generate responses.
+2.Retrieval Chain              – Fetches data from an external database and passes it into the prompt.
+3.Conversation Retrieval Chain – Adds chat history, allowing the LLM to remember previous interactions.
+4.Agent-based Chain            – Uses an LLM to decide whether additional data is needed before responding.
+
+
+
+Knowledge graph's Construction:
+1.LLMGraphTransformers
+2.GraphRag
+3.Neo4jGraph
+Querying chain: GraphCypherQAChain
