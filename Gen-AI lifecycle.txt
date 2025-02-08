@@ -1,0 +1,33 @@
+1.Data extraction:
+   -web	     : Crawl4AI, FireCrawl, ScrapeGraphAI 
+   -Documents: MegaParser, Docling, LLama parse,ExtractThinker, pymupdf4llm
+2.Framework libraries:
+   -lanchain
+   -Llama index
+   -Haystack
+   -txtai
+3.open LLM access:
+   -HUggingface, ollama, groq, Together AI
+
+The main steps of NLP are:
+ 1.Chunking/splitting
+ 2.Embedding, vector databases.
+ 3.RAG:{25 types of RAG}, {LLMgraphtransformer+GraphRAG}
+ 4.Prompting{20 types of prompting styles}, {AI for safety, Ethical AI}
+ 5.Fine-tuning, Qunatization
+ 6.LLM Evaluation: Ragas, giskard
+
+
+With increase in the length of the context, model's efficiency get decreased:-context limit 
+Text Splitters:
+	Character text splitting---------------->(Chunk_size, Chunk_overlap, seperator)
+	Recursive character text splitting------>
+	Document specific splitting------------->
+
+	Semantic splitting
+	Agentic splitting 
+
+
+
+
+ 
