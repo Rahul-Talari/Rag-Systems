@@ -1,0 +1,3 @@
+pip install torch
+pip install git+https://github.com/huggingface/transformers
+pip install -qU opik
